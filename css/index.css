@@ -2,26 +2,31 @@ body{
     margin: 0 0;
     background-color: rgb(6, 3, 48);
 }
+.simple-line{
+    height: 10px;
+    border-bottom: 1px solid rgb(180, 180, 180);
+    margin-bottom: 30px;
+}
 .header-wrapper{
     height: 300px;
     display: flex;
-    padding: 20px 100px;
+    padding: 10px 100px;
     align-content: center;
-    
 }
 .profile-photo{
-    border: 3px solid white;
+    border: 5px solid white;
     background-image: url("../image/profile-photo.jpg");
     background-size: cover;
     background-position: center;
     width: 200px;
     height: 200px;
     border-radius: 100%;
+    box-shadow: 5px 5px 5px black;
     margin: auto 0;
 }
 .div-info{
     margin: auto 0;
-    margin-left: 50px;
+    margin-left: 70px;
     font-family: 'Roboto Mono', monospace;
     color:gainsboro;
 }
@@ -48,6 +53,7 @@ body{
     margin: 10px 10px;
     border-radius: 20px;
     background-color: rgb(220,220,220,0.2); 
+    box-shadow: 3px 3px 3px black;
     display: flex;
     flex-direction: column;
 }
@@ -60,6 +66,7 @@ body{
     font-family: 'Roboto Mono', monospace;
     font-size: 30px;
     color: white;
+    border-bottom: 1px solid white;
 }
 .section-wrapper{
     flex: 5;
@@ -67,6 +74,7 @@ body{
     margin: 10px 10px;
     border-radius: 20px;
     background-color: rgb(220,220,220,0.2);
+    box-shadow: 3px 3px 3px black;
     color:gainsboro;
 }
 .aside-wrapper{

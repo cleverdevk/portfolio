@@ -17,6 +17,7 @@
         margin-left: 300px;
         font-size: 40px;
         font-family: 'Roboto Mono', monospace;
+        text-shadow: 5px 5px 5px black;
         color:gainsboro;
         text-align: left;
     }
@@ -27,20 +28,24 @@
         font-size: 30px;
         color:rgb(0, 248, 33);
         font-family: 'Roboto Mono', monospace;
+        text-shadow: 2px 2px 2px gray;
         text-align: left;
+    }
+    .name-style{
+        color:yellow;
     }
 </style>
 <body>
-    <div class="main-container">$ cd /home/Inbae Kang/Software_Developer/introduction_</div>
+    <div class="main-container">$ cd /home/<span class="name-style">Inbae Kang</span>/Software_Developer/introduction_</div>
     <div class="press-enter">Press Enter Key...</div>
     <script>
         let timer = setInterval(function(){
             let div = document.querySelector(".main-container");
-            if(div.innerHTML === "$ cd /home/Inbae Kang/Software_Developer/introduction_"){
-                div.innerHTML = "$ cd /home/Inbae Kang/Software_Developer/introduction";
+            if(div.innerHTML === '$ cd /home/<span class="name-style">Inbae Kang</span>/Software_Developer/Introduction_'){
+                div.innerHTML = '$ cd /home/<span class="name-style">Inbae Kang</span>/Software_Developer/Introduction';
             }
             else{
-                div.innerHTML = "$ cd /home/Inbae Kang/Software_Developer/introduction_";
+                div.innerHTML = '$ cd /home/<span class="name-style">Inbae Kang</span>/Software_Developer/Introduction_';
             }
         },800);
 
@@ -56,7 +61,7 @@
 
         document.addEventListener("keypress", function(e){
             if(e.keyCode==13){
-                location.href="/index.html"
+                location.href="/introduction.html"
             }
         })
     </script>
