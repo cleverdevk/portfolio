@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inbae Kang - Portfolio</title>
+    <link rel="stylesheet" href="./css/index.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header-wrapper">
+        <div class="profile-photo"></div>
+        <div class="div-info">
+            <div class="div-name">Inbae Kang</div>
+            <div class="div-job">$ ~/Software Developer/introduction_</div>
+        </div>
+    </header>
+    <main class="main-wrapper">
+        <nav class="nav-wrapper">
+            <div class="nav-item">Introduction</div>
+            <div class="nav-item">Projects</div>
+            <div class="nav-item">Activities</div>
+            <div class="nav-item">menu item</div>
+            <div class="nav-item">menu item</div>
+        </nav>
+        <section class="section-wrapper">
+            <header><h1 class="section-header">Introduction</h1></header>
+            <article class="article-wrapper">
+                <div class="section-content">
+                    <h2 class="section-content-header">General</h2>
+                    <ul class="section-content-list">
+                        <li class="section-content-list-item">Embedded System & IoT Developer</li>
+                        <li class="section-content-list-item">+821027763521</li>
+                        <li class="section-content-list-item">https://github.com/cleverdevk</li>
+                    </ul>
+                </div>
+
+                <div class="section-content">
+                    <h2 class="section-content-header">Education</h2>
+                    <ul class="section-content-list">
+                        <li class="section-content-list-item">Chung-ang University, Seoul, South Korea. 2018.03. - 2020.08. (Bechelor's Degree)</li>
+                        <li class="section-content-list-item">Purdue University, Indiana, USA. 2019.09. - 2019.12. (Visiting Scholar) </li>
+                    </ul>
+                </div>
+            </article>
+            <footer></footer>
+        </section>
+        <aside class="aside-wrapper"></aside>
+    </main>
+    <footer></footer>
+
+    <script>
+        let timer = setInterval(function(){
+            let div = document.querySelector(".div-job");
+            if(div.innerHTML === "$ ~/Software Developer/introduction_"){
+                div.innerHTML = "$ ~/Software Developer/introduction";
+            }
+            else{
+                div.innerHTML = "$ ~/Software Developer/introduction_";
+            }
+        },800);
+    </script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+body{
+    margin: 0 0;
+    background-color: rgb(6, 3, 48);
+}
+.header-wrapper{
+    height: 300px;
+    display: flex;
+    padding: 20px 100px;
+    align-content: center;
+    
+}
+.profile-photo{
+    border: 3px solid white;
+    background-image: url("../image/profile-photo.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: auto 0;
+}
+.div-info{
+    margin: auto 0;
+    margin-left: 50px;
+    font-family: 'Roboto Mono', monospace;
+    color:gainsboro;
+}
+.div-name{
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px black;
+}
+.div-job{
+    margin-top: 5px;
+    font-size: 20px;
+    color:rgb(0, 248, 33);
+    text-shadow: 2px 2px 2px gray;
+}
+.main-wrapper{
+    display: flex;  
+    height: 500px;
+    margin: 10px 55px;
+    border-radius: 20px;
+}
+.nav-wrapper{
+    flex: 1;
+    height: 500px;
+    margin: 10px 10px;
+    border-radius: 20px;
+    background-color: rgb(220,220,220,0.2); 
+    display: flex;
+    flex-direction: column;
+}
+.nav-item{
+    height: 30px;
+    margin: 15px 15px;
+    padding: 15px 10px;
+    color: black;
+    opacity: 0.9;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: white;
+}
+.section-wrapper{
+    flex: 5;
+    height: 500px;
+    margin: 10px 10px;
+    border-radius: 20px;
+    background-color: rgb(220,220,220,0.2);
+    color:gainsboro;
+}
+.aside-wrapper{
+    flex: 1;
+}
+.section-header{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px black;
+    color: gainsboro;
+    font-family: 'Roboto Mono', monospace;
+}
+.article-wrapper{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.section-content{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.section-content-list-item{
+    margin-bottom: 10px;
+}
